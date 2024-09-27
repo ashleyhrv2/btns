@@ -1,0 +1,10 @@
+windows.addEventListener("load",addListener);
+function addListener()
+{
+	document.getElementById("txtoutput").disabled= true;
+	document.getElementById("btnadd").addEventListener("click",Addition);
+	document.getElementById("btnsub").addEventListener("click",Subtraction);
+	document.getElementById("btnmult").addEventListener("click",Multiplication);
+	document.getElementById("btndiv").addEventListener("click", Division);
+	document.getElementById("btnclear").addEventListener("click",clear);
+}
