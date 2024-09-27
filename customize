@@ -1,0 +1,29 @@
+h1
+{
+	font-family: cambria;
+	text-align:center;
+}
+
+label[id="lblNumber1"]
+{
+	display:inline-block;
+	width:8%;
+	color: blue;
+	text-align:left;
+}
+
+label[id="lblNumber2"]
+{
+	display:inline-block;
+	width:8%;
+	color: blue;
+	text-align:left;
+}
+
+label[id="lblresult"]
+{
+	display:inline-block;
+	width:5%;
+	text-align: left;
+
+}
