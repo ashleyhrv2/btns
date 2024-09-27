@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Activity buttons</title>
+<link rel= "stylesheet" type="text/css" href="customize.css"></link>
+<script src = "button.js"></script>
+</head>
+
+<body>
+
+<h1>Buttons</h1>
+<p id="firstpart">
+<label id="lblNumber1">Number 1: </label>
+ <input type="text" id="txtNumber1"autofocus></input>
+
+<label id="lblNumber2">Number 2: </label>
+<input type="text" id="txtNumber2"></input>
+
+<button type="button" id="btnadd">+</button>
+<button type="button" id="btnsub">-</button>
+<button type="button" id="btnmult">*</button>
+<button type="button" id="btndiv">/</button>
+<button type="button" id="btnclear">clear</button>
+
+<label id="lblresult">Result: </label>
+ <input type="text" id="txtresult"></input>
+
+</p>
+
+</body>
+</html>
