@@ -1,5 +1,6 @@
 windows.addEventListener("load",addListener);
-function addListener()
+var Number1, Number2,Addition,Subtraction,Multiplication,Divison
+function addListener() 
 {
 	document.getElementById("txtoutput").disabled= true;
 	document.getElementById("btnadd").addEventListener("click",Addition);
@@ -8,3 +9,32 @@ function addListener()
 	document.getElementById("btndiv").addEventListener("click", Division);
 	document.getElementById("btnclear").addEventListener("click",clear);
 }
+
+function Addition()
+{
+	Number1 = document.getElementById("txtNumber1").value;
+	Number2 = document.getElementById("txtNumber2").value;
+	if(Number1 == "" || Number2 == "")
+		{
+			alert("Either the first number or second number is missing!");
+			Checkfocus();
+		}
+		else
+		{
+			Addition = Number1 + Number2;
+			document.getElementById("lblmessage").textcontent= "your answer is" + Addition;
+		}
+		
+}
+function CheckFocus()
+{
+	if(Number1 == "")
+		{
+			document.getElementById(txtnum1).focus();
+		}
+		else
+		{
+			document.getElementById(txtnum2).focus();
+					
+		}
+}	
